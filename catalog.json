@@ -1,0 +1,71 @@
+[
+  {
+    "category": "Beer",
+    "items": [
+      {
+        "name": "Creston Lager",
+        "description": "A crisp and refreshing lager brewed locally in Creston.",
+        "price": 3.99,
+        "image": "https://source.unsplash.com/400x300/?beer,lager"
+      },
+      {
+        "name": "Mountain IPA",
+        "description": "Hoppy India Pale Ale with notes of citrus and pine.",
+        "price": 4.49,
+        "image": "https://source.unsplash.com/400x300/?ipa,craft-beer"
+      },
+      {
+        "name": "Wheat Ale",
+        "description": "Smooth wheat beer with hints of banana and clove.",
+        "price": 4.29,
+        "image": "https://source.unsplash.com/400x300/?wheat-beer"
+      }
+    ]
+  },
+  {
+    "category": "Wine",
+    "items": [
+      {
+        "name": "BC Pinot Noir",
+        "description": "Light‑bodied red wine with flavors of cherry and spice.",
+        "price": 18.99,
+        "image": "https://source.unsplash.com/400x300/?pinot-noir"
+      },
+      {
+        "name": "Okanagan Chardonnay",
+        "description": "Medium‑bodied white wine with tropical fruit notes.",
+        "price": 16.49,
+        "image": "https://source.unsplash.com/400x300/?chardonnay"
+      },
+      {
+        "name": "Rosé Blend",
+        "description": "Dry rosé with aromas of strawberry and watermelon.",
+        "price": 14.99,
+        "image": "https://source.unsplash.com/400x300/?rose-wine"
+      }
+    ]
+  },
+  {
+    "category": "Spirits",
+    "items": [
+      {
+        "name": "Canadian Whisky",
+        "description": "Smooth whisky aged in oak barrels with a hint of caramel.",
+        "price": 32.99,
+        "image": "https://source.unsplash.com/400x300/?whisky"
+      },
+      {
+        "name": "Craft Gin",
+        "description": "Botanical gin with notes of juniper and citrus.",
+        "price": 29.49,
+        "image": "https://source.unsplash.com/400x300/?gin"
+      },
+      {
+        "name": "Premium Vodka",
+        "description": "Ultra smooth vodka distilled multiple times for purity.",
+        "price": 27.99,
+        "image": "https://source.unsplash.com/400x300/?vodka"
+      }
+    ]
+  }
+]

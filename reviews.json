@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sarah L.",
+    "rating": 5,
+    "comment": "Great service and friendly staff! The convenience store is well stocked and the fuel prices are fair."
+  },
+  {
+    "name": "Mike P.",
+    "rating": 4,
+    "comment": "Love the craft beer selection. The liquor store always has something new to try."
+  },
+  {
+    "name": "Emily R.",
+    "rating": 5,
+    "comment": "Clean facilities and a really good snack selection. It’s my go‑to stop on the way home."
+  },
+  {
+    "name": "David T.",
+    "rating": 4,
+    "comment": "Friendly staff and quick service at the pumps. Could use more seating inside."
+  },
+  {
+    "name": "Jess K.",
+    "rating": 5,
+    "comment": "Amazing wine specials! The staff helped me pick out the perfect bottle for dinner."
+  }
+]

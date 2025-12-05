@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Holiday Wine Sale",
+    "description": "Save 10% on select BC wines this holiday season. Limited time offer!",
+    "image": "https://source.unsplash.com/400x300/?wine-sale"
+  },
+  {
+    "title": "Craft Beer New Arrivals",
+    "description": "Check out our newest craft beer selections from local breweries.",
+    "image": "https://source.unsplash.com/400x300/?craft-beer"
+  },
+  {
+    "title": "Spirit Specials",
+    "description": "Premium spirits at discounted prices. Perfect for your festive celebrations.",
+    "image": "https://source.unsplash.com/400x300/?whiskey"
+  },
+  {
+    "title": "Snack Bundle Deal",
+    "description": "Grab any three snacks for just $5. Mix and match your favorites!",
+    "image": "https://source.unsplash.com/400x300/?convenience-snacks"
+  }
+]
