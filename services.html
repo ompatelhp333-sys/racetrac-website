@@ -3,8 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services | Racetrac Gas Station & Liquor Store</title>
+    <title>Our Services | Racetrac Gas Station & Liquor Store</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Discover the services offered by Racetrac Gas Station &amp; Liquor Store including fuel, liquor sales and convenience products in Erickson BC." />
+    <meta name="keywords" content="Racetrac Gas Station, Liquor Store, Erickson BC, Creston Gas, Local Liquor, Fuel Station" />
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="oOhBR7Rj84HfNGcFLBPvMC50tDB9TTYdKRFJ0pMrDP0" />
+
+    <!-- Structured data for services page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Racetrac Gas Station & Liquor Store - Services",
+      "url": "https://ompatelhp333-sys.github.io/racetrac-website/services.html",
+      "image": "https://source.unsplash.com/600x400/?gas-station,services",
+      "serviceType": ["Fuel", "Liquor Sales", "Convenience Products"],
+      "areaServed": {
+        "@type": "Place",
+        "name": "Erickson, BC"
+      }
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,40 +63,55 @@
     <main>
       <section class="page-header">
         <img
-          src="https://source.unsplash.com/1600x600/?gas-station,pump"
-          alt="Gas pumps"
+          src="https://source.unsplash.com/1600x500/?fuel-pump"
+          alt="Fuel pumps"
         />
-        <div class="page-header-content">
+        <div class="header-overlay"></div>
+        <div class="header-content">
           <h2>Our Services</h2>
+          <p>Everything you need in one convenient stop</p>
         </div>
       </section>
-      <section class="content services">
+
+      <section class="section">
         <div class="container grid-3">
-          <div class="card">
-            <i class="fa-solid fa-gas-pump fa-2x"></i>
+          <!-- Fuel Service -->
+          <div class="service-card">
+            <img
+              src="https://source.unsplash.com/400x300/?gas-pump"
+              alt="Fuel service"
+            />
             <h3>Fuel Station</h3>
             <p>
-              We offer Regular, Mid‑Grade and Premium fuel as well as diesel.
-              Our pumps are modern and easy to use with pay‑at‑the‑pump
-              convenience.
+              High‑quality fuels at competitive prices. Our forecourt offers
+              Regular (87), Mid‑Grade (89) and Premium (91) gasoline plus diesel.
+              Stop by for a quick fill‑up anytime.
             </p>
           </div>
-          <div class="card">
-            <i class="fa-solid fa-wine-bottle fa-2x"></i>
+          <!-- Liquor Service -->
+          <div class="service-card">
+            <img
+              src="https://source.unsplash.com/400x300/?liquor-store"
+              alt="Liquor store"
+            />
             <h3>Liquor Store</h3>
             <p>
-              Our liquor section features a curated collection of local craft
-              beers, BC wines and high‑quality spirits from around the world.
-              Find tasting notes and seasonal specials.
+              Explore our curated selection of beer, wine and spirits. From
+              craft brews to celebrated vintages and top‑shelf liquors, there’s
+              something for every palate and occasion.
             </p>
           </div>
-          <div class="card">
-            <i class="fa-solid fa-bag-shopping fa-2x"></i>
+          <!-- Convenience Service -->
+          <div class="service-card">
+            <img
+              src="https://source.unsplash.com/400x300/?convenience-store,drinks"
+              alt="Convenience store"
+            />
             <h3>Convenience Store</h3>
             <p>
-              From fresh coffee and hot snacks to cold drinks and household
-              essentials, our convenience store has everything you need for the
-              road.
+              Grab-and-go snacks, hot coffee, cold drinks and everyday
+              essentials. We keep our shelves stocked so you don’t have to
+              compromise on convenience.
             </p>
           </div>
         </div>

@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liquor Catalog | Racetrac Gas Station & Liquor Store</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Browse our liquor catalog including beer, wine and spirits at Racetrac Gas Station &amp; Liquor Store in Erickson BC. See descriptions, prices and images." />
+    <meta name="keywords" content="Racetrac Gas Station, Liquor Store, Erickson BC, Creston Gas, Local Liquor, Fuel Station" />
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="oOhBR7Rj84HfNGcFLBPvMC50tDB9TTYdKRFJ0pMrDP0" />
+
+    <!-- Structured data for liquor catalog page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Collection",
+      "name": "Racetrac Liquor Catalog",
+      "url": "https://ompatelhp333-sys.github.io/racetrac-website/catalog.html",
+      "description": "Browse a selection of beer, wine and spirits available at Racetrac Gas Station & Liquor Store.",
+      "hasPart": [
+        {
+          "@type": "Product",
+          "name": "Beer",
+          "description": "A variety of local and imported beers."
+        },
+        {
+          "@type": "Product",
+          "name": "Wine",
+          "description": "Red, white, and sparkling wines from around the world."
+        },
+        {
+          "@type": "Product",
+          "name": "Spirits",
+          "description": "Whisky, vodka, rum and other spirits."
+        }
+      ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,16 +75,19 @@
     <main>
       <section class="page-header">
         <img
-          src="https://source.unsplash.com/1600x600/?wine,beer,spirits"
-          alt="Liquor catalog banner"
+          src="https://source.unsplash.com/1600x500/?wine-bottles"
+          alt="Liquor bottles"
         />
-        <div class="page-header-content">
+        <div class="header-overlay"></div>
+        <div class="header-content">
           <h2>Liquor Catalog</h2>
+          <p>Discover beers, wines and spirits</p>
         </div>
       </section>
-      <section class="content">
+
+      <section class="section">
         <div class="container">
-          <div id="catalog" class="catalog-list"></div>
+          <div id="catalog-container"></div>
         </div>
       </section>
     </main>
